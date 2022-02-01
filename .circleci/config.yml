@@ -27,7 +27,7 @@ jobs:
       - checkout
 
       - run:
-          command: build dependencies
+          name: build dependencies
           command: bundle install
 
       - run:
